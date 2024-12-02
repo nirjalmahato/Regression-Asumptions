@@ -28,8 +28,8 @@ The goal was to implement the model and enhance its performance by addressing ke
   - **Linearity**: Ensured linear relationships between independent and dependent variables.
   - **Homoscedasticity**: Verified constant variance of residuals.
   - **Normality of residuals**: Ensured that residuals were approximately normally distributed.
-  - ** No Perfect Multicollinearity *: used variance inflation factor(VIF) to ensure no multicollinearity.
-  -  ** NO Autocorrelation **: used durbin_watson test to make sure no autocorrelation
+  - **No Perfect Multicollinearity**: used variance inflation factor(VIF) to ensure no multicollinearity.
+  -  **NO Autocorrelation**: used durbin_watson test to make sure no autocorrelation
   
 - **Implemented various transformations** (such as scaling features) and explored techniques like **Standard Scaling** to improve model performance.
 
