@@ -1,39 +1,55 @@
-# Machine Learning Project: Predicting Selling Price Of Old Car
+# Car Price Prediction with Linear Regression
 
-This project predicts price of Old Car based on historical data. It uses a combination of Explotary Data Analysis
-data preprocessing techniques , feature engineering and ,machine learning algorithms, and evaluation metrics to achieve optimal performance.
---
+## Project Overview
 
+In this project, I applied a **Linear Regression** model to a car dataset to predict the **selling price** of cars based on various features. The dataset includes variables such as:
 
-### Steps i followed to Find the Best Model
+- **Car model**
+- **Year**
+- **Current price**
+- **Kilometers driven**
+- **Fuel type**
+- **Seller type**
+- **Transmission type**
+- **Number of owners**
 
+The goal was to implement the model and enhance its performance by addressing key **assumptions**, **preprocessing** steps, and **optimization techniques**.
 
-1. ** Data Collection **:
-- Sourced data from [kaggle]("https://www.kaggle.com/datasets/nehalbirla/vehicle-dataset-from-cardekho")
-- This dataset contains information about used cars.
+---
 
-- The columns in the given dataset are as follows:
+## Key Tasks & Steps
 
-name
-year
-selling_price
-km_driven
-fuel
-seller_type
-transmission
-Owner
+### 1. **Dataset Exploration**
+- **Loaded a dataset** with features like:
+  - Car model, year, selling price, present price, kilometers driven, fuel type, seller type, transmission, and number of owners.
+  
+### 2. **Regression Assumptions**
+- **Checked for key assumptions** in linear regression:
+  - **Linearity**: Ensured linear relationships between independent and dependent variables.
+  - **Homoscedasticity**: Verified constant variance of residuals.
+  - **Normality of residuals**: Ensured that residuals were approximately normally distributed.
+  - **No Perfect Multicollinearity*: used variance inflation factor(VIF) to ensure no multicollinearity
+  
+- **Implemented various transformations** (such as scaling features) and explored techniques like **Standard Scaling** to improve model performance.
 
+### 3. **Modeling & Performance Tuning**
+- **Implemented a linear regression model** and evaluated its performance.
+- **Improved model accuracy** through techniques such as **feature engineering**.
+- **Explored additional regression models** and compared their results with the linear regression model.
 
-2. **Data Cleaning**:
-- Droped Car_Name column because it contains 98 unique categories, and it can cause high-cardinality
-  Over Fitting risk can also be caused.
+### 4. **Optimization**
+- Focused on **optimizing the model** by:
+  - **Tuning parameters** to improve results.
+  - Evaluating performance using metrics like **R-squared**, **Mean Absolute Error (MAE)**, and **Root Mean Squared Error (RMSE)**.
 
-- Drop rows index [196 ,86] . we droped this rows because it was different from our data we got to know about it from box plot and InterQuartile Rule: 
+---
 
-3.  **Exploratory Data Analysis (EDA)**:
-4.  ### Key Insights
-5.   
-   
+## Outcome
 
+The project helped me gain hands-on experience in:
+- Applying **regression techniques** to real-world data.
+- **Exploring model assumptions** to ensure accurate results.
+- **Optimizing the model** through parameter tuning and evaluating performance metrics.
+- Enhancing my understanding of **data preprocessing**, especially scaling and transforming features, to improve model performance.
 
-
+---
