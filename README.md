@@ -1,1 +1,1 @@
-# Machine Learning Project: Predicting selling price of old car
+# Machine Learning Project: Predicting Selling Price Of Old Car
